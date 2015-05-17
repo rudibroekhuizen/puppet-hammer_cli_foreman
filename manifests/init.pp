@@ -41,4 +41,8 @@ class hammer_cli_foreman {
   class { 'hammer_cli_foreman::package':
   }
   
+  # Apply configuration
+  class { 'hammer_cli_foreman::config':
+  }
+  
 }
