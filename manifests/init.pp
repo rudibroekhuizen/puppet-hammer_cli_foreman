@@ -37,5 +37,8 @@
 #
 class hammer_cli_foreman {
 
-
+  # Install packages
+  class { 'hammer_cli_foreman::package':
+  }
+  
 }
