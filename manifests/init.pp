@@ -35,7 +35,16 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class hammer_cli_foreman {
+class hammer_cli_foreman (
+  $config_hash = { 'mirantis-01' => { username => 'admin',
+                                      password => 'password',
+                                    },
+                   'mirantis-02' => { username => 'admin',
+                                      password => 'password', 
+                                    },
+                 },
+
+) {
 
   # Install packages
   class { 'hammer_cli_foreman::package':
