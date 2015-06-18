@@ -1,6 +1,6 @@
-# == Define: hammer_cli_foreman::defines::foreman_config.pp
+# == Define: hammer_cli_foreman::defines::config.pp
 #
-define hammer_cli_foreman::defines::foreman_config (
+define hammer_cli_foreman::defines::config (
   $setting,
   $value,
   ) {
