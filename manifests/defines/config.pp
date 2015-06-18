@@ -14,7 +14,7 @@ define hammer_cli_foreman::defines::config (
     section_suffix => "",
   }
 
-  ini_setting { "ini_${title}:
+  ini_setting { "ini_${title}":
     setting => $setting,
     value   => $value,
   }
