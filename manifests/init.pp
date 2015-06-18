@@ -36,11 +36,11 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class hammer_cli_foreman (
-  $config_hash = { 'mirantis-01' => { username => 'admin',
-                                      password => 'password',
+  $config_hash = { 'mirantis-01' => { setting => 'password',
+                                      value   => 'password',
                                     },
-                   'mirantis-02' => { username => 'admin',
-                                      password => 'password', 
+                   'mirantis-02' => { setting => 'admin',
+                                      value   => 'password', 
                                     },
                  },
 
